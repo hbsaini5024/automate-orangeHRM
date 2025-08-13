@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-08-13T11:14:27 IST" name="Default suite" finished-at="2025-08-13T11:15:30 IST" duration-ms="62819">
+    <groups>
+    </groups>
+    <test started-at="2025-08-13T11:14:27 IST" name="Default test" finished-at="2025-08-13T11:15:30 IST" duration-ms="62819">
+      <class name="tests.RecruitementTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.RecruitementTest@2d1ef81a]" started-at="2025-08-13T11:14:27 IST" name="setup" finished-at="2025-08-13T11:14:36 IST" duration-ms="8670" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="hireEmployee()[pri:0, instance:tests.RecruitementTest@2d1ef81a]" started-at="2025-08-13T11:14:36 IST" name="hireEmployee" finished-at="2025-08-13T11:15:30 IST" duration-ms="53752" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hireEmployee -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.RecruitementTest@2d1ef81a]" started-at="2025-08-13T11:15:30 IST" name="teardown" finished-at="2025-08-13T11:15:30 IST" duration-ms="325" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- tests.RecruitementTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
