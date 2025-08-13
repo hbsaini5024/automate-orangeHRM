@@ -57,8 +57,6 @@ public class AdminRecruitmentPage {
 	public void addVacany() throws InterruptedException {
 		
 		driver.findElement(addVacaniesBtn).click();
-//		WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(10));
-//		wait.until(ExpectedConditions.visibilityOfElementLocated(vacanyNameField)).sendKeys("Talent Accquistion");
 		
 		Thread.sleep(3000);
 		driver.findElement(vacanyNameField).sendKeys("Talent Accquistion");
